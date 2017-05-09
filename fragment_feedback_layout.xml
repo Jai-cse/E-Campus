@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sanskar.campus.campus.FeedbackFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="50dp"
+        android:paddingLeft="65dp">
+
+        <Button
+            android:id="@+id/cs_btn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:text="CS DEPARTMENT"
+            android:paddingBottom="5dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/me_btn"
+            android:layout_width="250dp"
+
+            android:paddingBottom="5dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:text="ME DEPARTMENT"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/ce_btn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:text="CE DEPARTMENT"
+
+            android:paddingBottom="5dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/ee_btn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:text="EE DEPARTMENT"
+
+            android:paddingBottom="5dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</FrameLayout>

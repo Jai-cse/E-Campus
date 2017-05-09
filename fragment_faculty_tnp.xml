@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context="com.sanskar.campus.campus.FacultyTnpFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CS DEPARTMENT"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            android:id="@+id/tnp_cs_btn"
+            />
+        <Button
+
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ME DEPARTMENT"
+            android:layout_marginTop="10dp"
+            android:background="@color/blue"
+            android:id="@+id/tnp_me_btn"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="CE DEPARTMENT"
+            android:layout_marginTop="10dp"
+            android:background="@color/blue"
+            android:id="@+id/tnp_ce_btn"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="EN DEPARTMENT"
+            android:layout_marginTop="10dp"
+            android:background="@color/blue"
+            android:id="@+id/tnp_en_btn"/>
+
+    </LinearLayout>
+
+</FrameLayout>

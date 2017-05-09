@@ -1,0 +1,259 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sanskar.campus.campus.StudentProfile">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/woodfloors"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="PROFILE"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="55dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NAME               :"
+
+                android:textColor="@color/black"
+
+                android:textStyle="bold"
+                android:layout_weight="0.42" />
+
+            <TextView
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:id="@+id/s_profile_name"
+                android:layout_weight="0.23" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="55dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ROLL NO           :"
+
+                android:textColor="@color/black"
+
+                android:textStyle="bold"
+                android:layout_weight="0.42" />
+
+            <TextView
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:id="@+id/s_profile_rollno"
+                android:layout_weight="0.23" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="55dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DEPARTMENT :"
+
+                android:textColor="@color/black"
+
+                android:textStyle="bold"
+
+                android:layout_weight="0.42" />
+
+            <TextView
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/s_profile_dept"
+                android:text="name"
+                android:layout_weight="0.23" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="55dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YEAR                 :"
+
+                android:textColor="@color/black"
+
+                android:textStyle="bold"
+                android:layout_weight="0.42" />
+
+            <TextView
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:id="@+id/s_profile_year"
+                android:layout_weight="0.23" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="55dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEM                  :"
+
+                android:textColor="@color/black"
+
+                android:textStyle="bold"
+                android:layout_weight="0.42" />
+
+            <TextView
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:id="@+id/s_profile_sem"
+                android:layout_weight="0.23" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="55dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EMAIL               :"
+
+                android:textColor="@color/black"
+
+                android:textStyle="bold"
+                android:layout_weight="0.42" />
+
+            <TextView
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:id="@+id/s_profile_email"
+                android:layout_weight="0.23" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="55dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONTACT         :"
+
+                android:textColor="@color/black"
+
+                android:textStyle="bold"
+                android:layout_weight="0.42" />
+
+            <TextView
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:id="@+id/s_profile_contact"
+                android:layout_weight="0.23" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="55dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ADDRESS          :"
+
+                android:textColor="@color/black"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/s_profile_address"
+                android:layout_width="71dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.76"
+                android:text="name" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:id="@+id/s_uddate_btn"
+            android:text="UPDATE PROFILE"
+
+
+            />
+
+    </LinearLayout>
+
+</FrameLayout>
